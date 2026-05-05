@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>postman</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="justify-content-center">
+<div class="col-md-6 text-center">
+    <h2 class="mb-4">Busca de Pokémon</h2>
+    <div class="input-grupo mb-3">
+        <input type="text" id="campoBusca" class="form-control" placeholder="digite o nome do Pokémon... ">
+        <button class="btn btn-danger" type="button" id="btnBuscar">Pesquisar</button>
+    </div>
+    <div id="resultado" class="card shadow d-none">
+        <div class="card-body">
+            <img id="pokeImg" src="" alt="Scripte do pokemon" class="img-fluid mb-3">
+            <h3 id="POKEnome" class="text-capitalize"></h3>
+            <p class="mb-1"><strong>ID:</strong><span id="POKEid"></span></p>
+            <p class="mb-1"><strong>Altura:</strong><span id="POKEaltura"></span></p>
+            <p class="mb-1"><strong>peso:</strong><span id="POKEpeso"></span></p>
+            
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+    
+</body>
+</html>
